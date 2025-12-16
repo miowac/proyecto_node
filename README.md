@@ -1,20 +1,45 @@
-# Proyecto Backend Node JS
+# proyecto_node
 
-Este proyecto es una aplicación para consumir una API de productos. 
+Backend para el proyecto_node.  
 
-Puedes clonar el repositorio y ejecutarlo localmente.
+## Estructura de carpetas
 
-# Instalación
+proyecto_node/  
+├── src/ # Código fuente del servidor  
+│ └── index.js # Punto de entrada de la aplicación  
+├── package.json # Dependencias, scripts y configuración npm  
+├── package-lock.json # Lock de dependencias  
+└── vercel.json # Configuración de despliegue 
 
-# 1. Clona el repositorio
-git clone https://github.com/miowac/proyecto_node.git
 
+## Tecnologías utilizadas
+
+- Node.js  
+- JavaScript (ES)  
+- Express (framework web para Node.js) :contentReference[oaicite:2]{index=2}  
+- (Opcional) configuración para despliegue vía Vercel — por el archivo `vercel.json`
+
+## Instalación y ejecución local
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/miowac/proyecto_node
 cd proyecto_node
+```
 
-# 2. Inicia el proyecto
-npm run start
+2. Instalar dependencias:
+```bash
+npm install
+```
 
-# 3. Contacto
+3. Ejecutar el servidor en modo desarrollo / local:
+```bash
+npm start
+```
+## Contacto
+
 Desarrollado por Irene Olivera
 mio2372@hotmail.com
+
 
